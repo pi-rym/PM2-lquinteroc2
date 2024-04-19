@@ -1,0 +1,53 @@
+/* Reset CSS */
+/*---------------------------------*/
+
+/* Box-sizing border-box por defecto */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Reset de márgenes y padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Lista sin estilos */
+ol, ul {
+    list-style: none;
+}
+
+/* Formatos predeterminados */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Elementos de tabla sin espaciado */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Fuentes predeterminadas */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Ajuste de dimensiones de imagen */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Añadir cualquier ajuste adicional necesario para tu proyecto aquí */
+

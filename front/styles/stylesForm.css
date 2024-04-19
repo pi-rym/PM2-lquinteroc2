@@ -1,0 +1,64 @@
+main {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#form {
+    background-color: #21315e;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 20px;
+    width: 50vw;
+}
+
+main h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 30px;
+
+}
+
+input {
+    background-color: #3caeb6;
+    border-radius: 5px;
+    border: 0;
+    box-sizing: border-box;
+    color: #d4d4d4;
+    font-size: 18px;
+    outline: 0;
+    padding: 4px 20px 0;
+    margin-top: 1em;
+    width: 100%;
+}
+
+input[name="genre[]"] {
+    margin: 0;
+}
+
+.divButton {
+    margin-left: 9em;
+}
+
+main button {
+    background-color: #3caeb6;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #e4e4e4;
+    cursor: pointer;
+    font-size: 18px;
+    height: 2.5em;
+    margin: 2em;
+    text-align: center;
+    width: 30%;
+}
+
+main button:hover {
+    color: #5e4c4c;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+

@@ -1,0 +1,167 @@
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  a {
+    color:#1abc9c;
+  }
+  
+  a:hover {
+    color: #16a085;
+  }
+  
+  body {
+    font-size: 1em;
+    line-height: 1.7em;
+    color: #8f7575;
+    font-weight: normal;
+  }
+  
+  body, input, textarea {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5,h6, .navigation a, .btn, .filters .filter {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    position: relative;
+    margin: 1em 0 1.4em;
+    color: #484f58;
+  }
+  
+  h1,h2 {
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+  
+
+
+
+.navigation {
+        position: relative;
+        float: right;
+        margin: 10px 0 0 0;
+}
+      
+.navigation ul li {
+        font-size: 2em;
+        position: relative;
+        display: inline;
+        float: left;
+}
+      
+.navigation a {
+        font-size: .8em;
+        display: block;
+        margin-left: 20px;
+        padding-bottom: 3px;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+  
+
+#films {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+#films .movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+    padding-left: 1em;
+    margin-left: 1em;
+   
+
+    flex: 1;
+    flex-basis: 300px;
+    flex-grow: 0;
+    height: 440px;
+    background: rgba(22, 18, 18, 1);
+    border: 2px solid #ceacac;
+    box-shadow: 0px 4px 7px rgba(22, 18, 18, 1);
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+#films .movie .divMovie {
+    border: #16a085 solid 1px;
+    max-width: 300px;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    height: 100%;
+    transition: all 0.7s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+    clip-path: circle(0% at 100% 100%);
+}
+
+#films .movie:hover .divMovie {
+  left: 0px;
+  transition: all 0.7s ease-in-out;
+  clip-path:  circle(75%);
+}
+
+
+#films .movie:hover {
+  transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  box-shadow: 0px 2px 3px rgba(22, 18, 18, 1);
+  transform: scale(0.97);
+}
+
+#films .movie h3 {
+  padding-left:  0.3em;
+  color: #352a2a;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+#films .movie p {
+  margin: 0.3em;
+  letter-spacing: 1px;
+  color: #352a2a;
+}
+
+#films .movie:hover img {
+  transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+  transform: scale(1.6) rotate(20deg);
+  filter: blur(3px);
+} 
+
+#films img {
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 0.5em;
+
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s cubic-bezier(0.8, 0.5, 0.2, 1.4);
+}
