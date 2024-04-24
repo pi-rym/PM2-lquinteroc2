@@ -89,8 +89,6 @@ function handlerSubmit(event) {
             window.location.href = '/';
             renderFilms()
 
-            // Limpiar los campos del formulario después de la creación exitosa
-            // cleanInputs();
         })
         .catch(error => {
             // Si hubo algún error en el proceso de creación de la película, mostrar el mensaje de error

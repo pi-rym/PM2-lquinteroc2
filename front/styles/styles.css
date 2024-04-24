@@ -4,8 +4,9 @@
     box-sizing: border-box;
   }
   
+
   a {
-    color:#1abc9c;
+    color:#c6f3ea;
   }
   
   a:hover {
@@ -13,6 +14,11 @@
   }
   
   body {
+    background-image: url('https://www.pcclean.io/wp-content/uploads/2020/4/RreUju.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-size: 1em;
     line-height: 1.7em;
     color: #8f7575;
@@ -30,7 +36,7 @@
   h1,h2,h3,h4,h5,h6 {
     position: relative;
     margin: 1em 0 1.4em;
-    color: #484f58;
+    color: #aec8e9;
   }
   
   h1,h2 {
@@ -78,6 +84,7 @@
   
 
 #films {
+    margin-top: 20vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

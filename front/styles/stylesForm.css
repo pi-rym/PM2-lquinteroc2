@@ -6,13 +6,30 @@ main {
     height: 100vh;
 }
 
+
+#container {
+   
+    padding-top: 40vw;
+    padding-left: 30vw;
+    
+    
+}
+
 #form {
+    
     background-color: #21315e;
     border-radius: 20px;
     box-sizing: border-box;
     height: auto;
     padding: 20px;
     width: 50vw;
+}
+
+#titleContainer {
+    display: flex;
+    justify-content: center;
+    
+    
 }
 
 main h2 {
